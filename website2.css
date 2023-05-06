@@ -1,0 +1,135 @@
+body {
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    /* background-position: right; */
+    background-repeat: no-repeat;
+}
+
+.image {
+    border-radius: 50%;
+    margin: 1em;
+    width: 8rem;
+}
+
+.div1 {
+    background-color: rgba(226, 239, 239, 0.77);
+    height: 10rem;
+}
+
+.title {
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.t1 {
+    display: inline-block;
+    position: relative;
+    font-family: serif;
+    top: 5rem;
+    right: 20rem;
+}
+
+.nav-link {
+    color: azure;
+}
+
+#des {
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0.2rem;
+    padding: 2rem;
+    background-color: rgba(149, 238, 238, 0.758);
+    font-family: sans-serif;
+    color: rgb(15, 14, 14);
+    font-weight: 600;
+}
+
+#subscribe {
+    position: relative;
+    left: 18rem;
+    color: white;
+    background-color: #ff0606;
+    border-radius: 2em;
+}
+
+.list {
+    margin: 5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgba(240, 248, 255, 0.059);
+    padding-top: 5rem;
+
+}
+
+#carouselExampleControls {
+    background-color: rgba(68, 99, 99, 0.758);
+    border: 2px solid #87c2f3;
+    padding: 2% 1% 1% 7%;
+    width: 40%;
+    margin: 1rem 3rem 3rem 3rem;
+}
+
+hr {
+    background-color: aliceblue;
+    height: 0.1rem;
+}
+
+.head {
+    /* background-color: rgba(78, 181, 245, 0.642); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* margin: 3rem 2rem 3rem 3rem; */
+    padding: 5rem;
+    font-size: 1.5%;
+    color: azure;
+}
+
+.flex1 {
+    display: flex;
+}
+
+.newform {
+    margin: 5%;
+    padding: 3%;
+    background-color: aliceblue;
+}
+
+#form1 {
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.end {
+    color: rgba(238, 238, 45, 0.716);
+    /* text-decoration: underline; */
+    text-shadow: 1px 1px 2px rgb(243, 164, 5);
+    text-align: center;
+    font-size: 200%;
+    background-color: black;
+    height: 10rem;
+}
+
+.end1 {
+    color: rgba(238, 238, 45, 0.716);
+    /* text-decoration: underline; */
+    text-shadow: 1px 1px 2px rgb(243, 164, 5);
+
+}
+
+.icons {
+    width: 2rem;
+    background-color: aliceblue;
+    border-radius: 25%;
+}
+/* @media(max-width:400px){
+  .flex1{
+    display:flex;
+    flex-direction: column;
+    
+  }
+} */
